@@ -3,10 +3,8 @@ _THEOS_PACKAGE_FORMAT_LOADED := 1
 
 TARGET_CODESIGN = :
 
-TARGET_METEORITE = /Users/kabiroberai/Desktop/Xcode/Theos/meteorite/meteorite-cli
+TARGET_METEORITE = meteorite
 TARGET_METEORITE_FLAGS = --certificate certificate.p12 --key key.p12 --profile profile.mobileprovision
-# TARGET_METEORITE = cp
-# TARGET_METEORITE_FLAGS = -r
 
 COMPRESSION := 1
 ifeq ($(_THEOS_FINAL_PACKAGE),$(_THEOS_TRUE))
